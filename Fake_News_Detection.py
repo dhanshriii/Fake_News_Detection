@@ -59,7 +59,7 @@ def load_real_dataset(dataset_path=None):
     """
     # Default dataset path if not provided
     if dataset_path is None:
-        dataset_path = r"A:\TY\Sem II\DMWL\CIA\News_dataset"  # Using the path from your train script
+        dataset_path = r"News_dataset"  # Using the path from your train script
 
     try:
         # Load true and fake news datasets
